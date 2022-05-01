@@ -8,8 +8,8 @@ import yaml
 import tqdm
 from tqdm import trange
 
-from ppflows.gluino.gluino_auxiliary import build_dataloaders_mixed
-from ppflows.gluino.gluino_models import DropoutGluinoModel
+from surflows.gluino.gluino_auxiliary import build_dataloaders_mixed
+from surflows.gluino.gluino_models import DropoutGluinoModel
 
 def compute_loss_components(model, data):
     log_probs_conditional = model.log_prob_conditional(data)

@@ -7,8 +7,8 @@ import yaml
 import tqdm
 from tqdm import trange
 
-from ppflows.gluino.gluino_auxiliary import build_dataloaders
-from ppflows.gluino.gluino_models import DiscreteClassifier
+from surflows.gluino.gluino_auxiliary import build_dataloaders
+from surflows.gluino.gluino_models import DiscreteClassifier
 
 def compute_loss_over_dataloader(model, dataloader, device):
     loss = 0

@@ -2,8 +2,8 @@ import numpy as np
 import torch
 from torch.nn import functional as F
 
-from ppflows import utils
-from ppflows.distributions import Distribution
+from surflows import utils
+from surflows.distributions import Distribution
 
 
 class Flow(Distribution):

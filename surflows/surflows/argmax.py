@@ -1,11 +1,11 @@
 import torch
 import torch.nn as nn
 import math
-from ppflows import utils
-from ppflows.distributions import BetaBox, CorrelatedUniformBox
+from surflows import utils
+from surflows.distributions import BetaBox, CorrelatedUniformBox
 
-from ppflows.rqs_flow.transforms import MaskedPiecewiseRationalQuadraticAutoregressiveTransform, InverseTransform
-from ppflows.rqs_flow.transforms import RandomPermutation, CompositeTransform
+from surflows.rqs_flow.transforms import MaskedPiecewiseRationalQuadraticAutoregressiveTransform, InverseTransform
+from surflows.rqs_flow.transforms import RandomPermutation, CompositeTransform
 
 class ArgmaxBase(nn.Module):
     """

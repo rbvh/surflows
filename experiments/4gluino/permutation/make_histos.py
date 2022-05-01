@@ -6,13 +6,13 @@ from matplotlib import pyplot as plt
 from matplotlib.lines import Line2D
 import argparse
 import yaml
-from ppflows.gluino.gluino_models import GluinoModel
-from ppflows.utils import Histogram
+from surflows.gluino.gluino_models import GluinoModel
+from surflows.utils import Histogram
 
 import pandas as pd 
 import numpy as np
 
-from ppflows.gluino.gluino_auxiliary import to_phase_space_4_body, to_angle_4_body
+from surflows.gluino.gluino_auxiliary import to_phase_space_4_body, to_angle_4_body
 
 n_train = 1000000
 

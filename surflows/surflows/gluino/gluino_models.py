@@ -5,15 +5,15 @@ import numpy as np
 import math
 import yaml
 
-from ppflows.rqs_flow.transforms import MaskedPiecewiseRationalQuadraticAutoregressiveTransform
-from ppflows.rqs_flow.transforms import RandomPermutation, CompositeTransform
-from ppflows.gluino.gluino_auxiliary import GluinoCategoricalEncoder, angle_ordered_permutation
+from surflows.rqs_flow.transforms import MaskedPiecewiseRationalQuadraticAutoregressiveTransform
+from surflows.rqs_flow.transforms import RandomPermutation, CompositeTransform
+from surflows.gluino.gluino_auxiliary import GluinoCategoricalEncoder, angle_ordered_permutation
 
-from ppflows.distributions import BetaMixtureBox, UniformBox, UniformMixtureBox
-from ppflows.permuters import IteratedPermutation, StochasticPermutation, SortPermutation
-from ppflows.argmax import ArgmaxUniform, ArgmaxFlow
-from ppflows.dequantization import DequantizationUniform, DequantizationFlow
-from ppflows.rqs_flow.transforms import Permutation
+from surflows.distributions import BetaMixtureBox, UniformBox, UniformMixtureBox
+from surflows.permuters import IteratedPermutation, StochasticPermutation, SortPermutation
+from surflows.argmax import ArgmaxUniform, ArgmaxFlow
+from surflows.dequantization import DequantizationUniform, DequantizationFlow
+from surflows.rqs_flow.transforms import Permutation
 
 
 '''

@@ -10,9 +10,9 @@ import numpy as np
 import argparse
 import yaml
 
-from ppflows.gluino.gluino_models import DropoutGluinoModel
-from ppflows.gluino.gluino_auxiliary import to_phase_space_4_body, to_phase_space_2_body
-from ppflows.utils import Histogram
+from surflows.gluino.gluino_models import DropoutGluinoModel
+from surflows.gluino.gluino_auxiliary import to_phase_space_4_body, to_phase_space_2_body
+from surflows.utils import Histogram
 
 xsec_2_gluino = 4.573364
 xsec_4_gluino = 0.00018326

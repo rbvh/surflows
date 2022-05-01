@@ -5,11 +5,11 @@ import torch
 from torch import nn
 from torch.nn import functional as F
 
-from ppflows import utils
+from surflows import utils
 
-from ppflows.rqs_flow import made as made_module
-from ppflows.rqs_flow import rational_quadratic
-from ppflows.rqs_flow.rational_quadratic import (
+from surflows.rqs_flow import made as made_module
+from surflows.rqs_flow import rational_quadratic
+from surflows.rqs_flow.rational_quadratic import (
     rational_quadratic_spline,
     unconstrained_rational_quadratic_spline,
     restricted_rational_quadratic_spline

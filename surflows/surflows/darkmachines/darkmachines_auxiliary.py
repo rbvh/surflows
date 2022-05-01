@@ -6,8 +6,8 @@ import os
 import torch
 from torch import nn
 import math
-from ppflows.file_lock import FileLock
-from ppflows.permuters import IteratedPermutation
+from surflows.file_lock import FileLock
+from surflows.permuters import IteratedPermutation
 import yaml
 
 # Convert data to torch tensors

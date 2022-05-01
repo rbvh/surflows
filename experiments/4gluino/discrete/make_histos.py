@@ -11,10 +11,10 @@ import yaml
 import argparse
 import os
 
-from ppflows.permuters import IteratedPermutation
-from ppflows.gluino.gluino_models import GluinoModel, MixtureGluinoModel, ClassifierGluinoModel
-from ppflows.gluino.gluino_auxiliary import to_phase_space_4_body
-from ppflows.utils import Histogram
+from surflows.permuters import IteratedPermutation
+from surflows.gluino.gluino_models import GluinoModel, MixtureGluinoModel, ClassifierGluinoModel
+from surflows.gluino.gluino_auxiliary import to_phase_space_4_body
+from surflows.utils import Histogram
 
 def perp(x, y):
     z = np.zeros((x.shape[0], 3))

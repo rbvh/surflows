@@ -8,8 +8,8 @@ import yaml
 import tqdm
 from tqdm import trange
 
-from ppflows.gluino.gluino_auxiliary import build_dataloaders
-from ppflows.gluino.gluino_models import GluinoModel, MixtureGluinoModel
+from surflows.gluino.gluino_auxiliary import build_dataloaders
+from surflows.gluino.gluino_models import GluinoModel, MixtureGluinoModel
 
 def compute_balanced_mixture_loss(model, batch_cont, batch_disc):
     # Encode discrete features

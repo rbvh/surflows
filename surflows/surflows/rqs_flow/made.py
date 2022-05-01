@@ -5,7 +5,7 @@ from torch import nn
 from torch.nn import functional as F
 from torch.nn import init
 
-from ppflows import utils
+from surflows import utils
 
 def _get_input_degrees(in_features):
     """Returns the degrees an input to MADE should have."""

@@ -5,16 +5,16 @@ import numpy as np
 import math
 import yaml
 
-from ppflows.rqs_flow.transforms import MaskedPiecewiseRationalQuadraticAutoregressiveTransform
-from ppflows.rqs_flow.transforms import RandomPermutation, CompositeTransform
+from surflows.rqs_flow.transforms import MaskedPiecewiseRationalQuadraticAutoregressiveTransform
+from surflows.rqs_flow.transforms import RandomPermutation, CompositeTransform
 
-from ppflows.darkmachines.darkmachines_auxiliary import DarkMachinesData
+from surflows.darkmachines.darkmachines_auxiliary import DarkMachinesData
 
-from ppflows.distributions import StandardMixtureNormal
-from ppflows.permuters import StochasticPermutation, IteratedPermutation
-from ppflows.rqs_flow.transforms import Permutation
+from surflows.distributions import StandardMixtureNormal
+from surflows.permuters import StochasticPermutation, IteratedPermutation
+from surflows.rqs_flow.transforms import Permutation
 
-from ppflows.utils import exclusive_rand
+from surflows.utils import exclusive_rand
 
 '''
 Model that includes permutation, dropout and discrete mixture for darkmachines data

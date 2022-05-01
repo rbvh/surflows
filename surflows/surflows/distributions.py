@@ -3,7 +3,7 @@
 import torch
 from torch import nn
 from torch import distributions
-from ppflows import utils
+from surflows import utils
 from torch.distributions import categorical
 import torch.nn.functional as F
 import math as m

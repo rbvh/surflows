@@ -11,8 +11,8 @@ import os
 import numpy as np
 import yaml
 
-from ppflows.file_lock import FileLock
-from ppflows.permuters import IteratedPermutation
+from surflows.file_lock import FileLock
+from surflows.permuters import IteratedPermutation
 
 class GluinoCategoricalEncoder(nn.Module):
     def __init__(self, cont_size=16, hel_size=6, col_size=5):
