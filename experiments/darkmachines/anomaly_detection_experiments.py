@@ -10,8 +10,8 @@ import sys
 import tqdm
 from tqdm import trange
 
-from ppflows.darkmachines.darkmachines_model import DarkMachinesMixtureModel, DarkMachinesDequantizationModel, DarkMachinesClassifierModel
-from ppflows.darkmachines.darkmachines_auxiliary import DarkMachinesData
+from surflows.darkmachines.darkmachines_model import DarkMachinesMixtureModel, DarkMachinesDequantizationModel, DarkMachinesClassifierModel
+from surflows.darkmachines.darkmachines_auxiliary import DarkMachinesData
 
 from sklearn.metrics import roc_curve, roc_auc_score
 from scipy.interpolate import interp1d
